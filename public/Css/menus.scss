@@ -1,0 +1,250 @@
+body {
+    margin: 0px;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: #15548D;
+  
+    .graha {
+      position: absolute;
+      top: 2%;
+      left: 8.5%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      z-index: 2;
+  
+      li {
+        display: block;
+        position: absolute;
+        font-size: 25px;
+        font-weight: bolder;
+      }
+    }
+  
+    .graha2 {
+      position: absolute;
+      top: 5%;
+      left: 8.5%;
+      text-align: center;
+      color: white;
+      z-index: 2;
+  
+      li {
+        display: block;
+        font-size: 18px;
+        font-weight: bolder;
+      }
+    }
+  
+    .navbar {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px 0;
+      position: absolute;
+      top: 0%;
+      left: 30%;
+      transform: translateX(-50%);
+      width: 80%;
+  
+      ul {
+        display: flex;
+        width: 35%;
+        list-style: none;
+        justify-content: space-between;
+  
+        li a {
+          text-decoration: none;
+          font-size: 19px;
+          color: white;
+        }
+      }
+    }
+  
+    img.logo {
+      width: auto;
+      height: auto;
+      display: block;
+      position: absolute;
+      top: 4%;
+      left: 10%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+    }
+  
+    .hotel {
+      position: absolute;
+      top: 20%;
+      left: 14.5%;
+      transform: translate(-50%, -50%);
+      text-align: start;
+      color: white;
+  
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+      }
+    }
+  
+    .deskripsi {
+      position: absolute;
+      top: 35%;
+      left: 23%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      max-width: 500px;
+      margin: 1 auto;
+      color: white;
+  
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+  
+        li {
+          display: block;
+          margin: 20px 0;
+          text-align: left;
+        }
+      }
+    }
+  
+    .deskripsi2 {
+      font-weight: bold;
+      position: absolute;
+      top: 27%;
+      left: 23%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      max-width: 500px;
+      margin: 1 auto;
+      color: white;
+      font-size: 30px;
+  
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+  
+        li {
+          display: block;
+          margin: 20px 0;
+          text-align: left;
+        }
+      }
+    }
+  
+    .menu-toggle {
+      display: flex;
+      flex-direction: column;
+      height: 20px;
+      justify-content: space-between;
+      position: relative;
+      right: 50px;
+      top: -45px;
+      background-color: black;
+  
+      input {
+        position: absolute;
+        width: 40px;
+        height: 30px;
+        right: 50px;
+        opacity: 0.8;
+        cursor: pointer;
+      }
+  
+      span {
+        display: block;
+        width: 28px;
+        height: 4px;
+        border-radius: 3px;
+        background-color: white;
+        right: 50px;
+      }
+    }
+  
+    .mh-100 {
+      background-color: #FAC568;
+      position: absolute;
+      top: 20%;
+      left: 9.5%;
+      transform: translate(-50%, -50%);
+    }
+  
+    .konsultasi {
+      text-align: center;
+      position: absolute;
+      top: 35%;
+      left: 17.8%;
+      transform: translateX(-50%);
+      width: 300px;
+      height: 50px;
+      line-height: 15px;
+      margin: 50px auto;
+      background: #FAC568;
+      border-radius: 20px;
+  
+      li a {
+        margin: auto;
+        display: block;
+        font-size: 19px;
+        text-decoration: none;
+      }
+    }
+  
+    img.gedung {
+      float: right;
+      width: 900px;
+      height: 1000px;
+      display: block;
+      position: absolute;
+      top: 50%;
+      right: -23.5%;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+    }
+  
+    /* Responsive Breakpoints */
+    @media screen and (max-width: 768px) {
+      .navbar ul {
+        width: 40%;
+      }
+    }
+  
+    @media screen and (max-width: 576px) {
+      .navbar ul {
+        display: none;
+      }
+    }
+  
+    /* Responsive Breakpoints for 1440px (Mac resolution) */
+    @media screen and (max-width: 1440px) {
+      .navbar {
+        left: 25%; /* Adjust left value as needed */
+      }
+  
+      img.gedung {
+        width: 800px; /* Adjust width as needed */
+        height: 900px; /* Adjust height as needed */
+        right: -20%; /* Adjust right value as needed */
+      }
+    }
+  
+    /* Responsive Breakpoints for 1920px (Desktop Resolution) */
+    @media screen and (max-width: 1920px) {
+      .navbar {
+        left: 20%; /* Adjust left value as needed */
+      }
+  
+      img.gedung {
+        width: 1000px; /* Adjust width as needed */
+        height: 1100px; /* Adjust height as needed */
+        right: -25%; /* Adjust right value as needed */
+      }
+    }
+  }
+  

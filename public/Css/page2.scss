@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: 
+    #15548D;
+  }
+  
+  .graha {
+    position: absolute;
+    top: 2.5%;
+    left: 13.5%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: black;
+    z-index: 2;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    position: absolute;
+    top: 0%; /* Adjust the top value as needed */
+    left: -45%; /* Adjust the right value as needed */
+    transform: translateX(50%); /* Corrected the transformation */
+    width: 80%;
+  }
+  
+  .navbar ul {
+    display: flex;
+    width: 40%;
+    list-style: none;
+    justify-content: space-between;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+  }
+  
+  img.logo {
+    width: auto;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 4%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
